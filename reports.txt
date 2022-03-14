@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNISA Exam Reports</title>
+
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <h1>Exam Reports</h1>
+        </div>
+
+        <div class="search_input">
+           <input type="search" name="search" id="search" placeholder="Search for report....">
+           <input type="button" name="btnSeach" value="Search">
+        </div><br>
+
+        <div class="choose_report">
+             <h2>Type of Report</h2>
+           <input type="radio" name="report_type" id="report_type">Summary Report 1</br></br>
+           <input type="radio" name="report_type" id="report_type">Summary Report 2</br></br>
+           <input type="radio" name="report_type" id="report_type">Trend Report 1</br></br>
+           <input type="radio" name="report_type" id="report_type">Trend Report 2</br></br>
+           <input type="radio" name="report_type" id="report_type">Exception Report</br></br>
+           <input type="submit" name="generate" value="Generate" >
+        </div><br>
+        <div class="logout">
+           <input type="submit" name="btnLogout" value="Logout">
+        </div>
+    </div>
+</body>
+</html>

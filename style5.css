@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+
+.container {
+    width: 850px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: burlywood;
+}
+
+.header h1 {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 60px;
+    color: rgb(10, 61, 30);
+}
+
+.search_input {
+    width: 130%;
+}
+
+#search {
+    width: 60%;
+    padding: 1rem;
+    border: none;
+    border-radius: 20rem;
+    overflow: hidden;
+}
+
+#btn-search {
+    width: 25%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 75, 50);
+    font-size: 15px;
+    font-weight: bold;
+}
+#btn-search:hover {
+    width: 25%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    background-color: yellowgreen;
+    transition: all 0.8s ease;
+    color: aqua;
+}
+
+.radio {
+    margin: 0.5rem;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn-press {
+    width: 45%;
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 75, 50);
+}
+
+.btn-press:hover {
+    width: 40%;
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    transition: all 0.8s ease;
+    color: aqua;
+}

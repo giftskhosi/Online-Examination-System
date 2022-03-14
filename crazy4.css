@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 850px;
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.search_input {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#tSearch {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+#btn-press {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(70, 131, 128);
+    font-size: 17px;
+    color: #fff;
+}
+
+#btn-press:hover {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(52, 189, 182);
+    font-size: 17px;
+    color: rgb(48, 47, 47);
+    transition: all .9s ease-in;
+}
+
+table {
+    position: absolute;
+    left: 24%;
+    top: 70%;
+}
+
+tr, th, td {
+    margin: 1rem;
+    padding: 0.5rem;
+}

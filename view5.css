@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    
+}
+
+.wrapper {
+    width: 700px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(42, 133, 133);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(156, 123, 123, 0.747);
+}
+
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    color: green;
+
+}
+
+.nav {
+    position: absolute;
+    left: 68%;
+    background-color: rgb(27, 53, 32);
+    padding: 0.3rem;
+    border-radius: 9px;
+}
+
+.nav:hover {
+    position: absolute;
+    left: 68%;
+    background-color: rgb(4, 235, 50);
+    padding: 0.4rem;
+    border-radius: 9px;
+    transition: all 0.9s ease;
+    color: darkred;
+}
+
+.nav li {
+    list-style-type: none;
+    text-align: center;
+}
+.nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: blanchedalmond;
+}
+
+.navlist li {
+    display: inline;
+    padding: .4rem;
+    margin: .5rem;
+    border-radius: 9px;
+    background-color: cadetblue;
+    list-style-type: none;
+}
+
+.navlist li:hover {
+    display: inline;
+    padding: .5rem;
+    margin: .4rem;
+    border-radius: 9px;
+    background-color: rgb(0, 88, 80);
+    list-style-type: none;
+}
+
+.navlist a {
+    text-decoration: none;
+    font-size: 18px;
+    color: thistle;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+

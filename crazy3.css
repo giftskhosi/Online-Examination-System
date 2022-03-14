@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(96, 176, 196);
+}
+
+.container {
+    height: 100%;
+    width: 900px;
+    text-align: center;
+    font-size: 17px;
+    background-size: cover;
+    background-color: rgb(54, 119, 194);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.instruction {
+    padding-bottom: 1em;
+}
+
+#btn-press {
+
+    padding-right: 1rem;
+    padding: 1rem 5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: rgb(11, 12, 11);
+    border: transparent;
+    outline: olivedrab;
+    cursor: pointer;
+    background: rgb(133, 136, 118);
+    background-color: mediumblue;
+    border-radius: inherit;
+
+}
+
+#btn-press:active {
+    background-color: rgb(28, 160, 72);
+    transform: scale(1.98);
+
+}
+
+#period, #year {
+    width: 15%;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+    color: #000000;
+    background: rgb(62, 70, 75);
+    cursor: pointer;
+}
+
